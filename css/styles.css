@@ -92,10 +92,6 @@
   letter-spacing: 0.02em;
 }
 
-.button-background {
-  background-color: var(--color-iris);
-}
-
 .button-header {
   color: var(--color-white);
   font-family: "Roboto", sans-serif;
@@ -103,6 +99,7 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  background-color: var(--color-iris);
   cursor: pointer;
 }
 
