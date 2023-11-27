@@ -7,10 +7,116 @@
   --color-cloud: #f4f4fd;
 }
 
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--color-iris);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo .studio-highlight {
+  color: var(--color-navyblue);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-list {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-navyblue);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.header-list-type {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+
+.header-list-name {
+  color: var(--color-navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-list-name:hover {
+  color: var(--color-ocean);
+}
+
+.header-list-name:focus {
+  color: var(--color-ocean);
+}
+
+.address-style {
+  font-style: normal;
+  list-style: none;
+}
+
+.address-list {
+  color: var(--color-slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-list:hover {
+  color: var(--color-ocean);
+}
+.address-list:focus {
+  color: var(--color-ocean);
+}
+
+.address-style a {
+  text-decoration: none;
+}
+
+.header-index {
+  background-color: var(--color-navyblue);
+}
+
+.h1-style {
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.button-h1 {
+  background-color: var(--color-iris);
+  color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button-h1:hover {
+  background-color: var(--color-ocean);
+}
+
+.button-h1:focus {
+  background-color: var(--color-ocean);
+}
+
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: #434455;
   line-height: 1.6;
+  background-color: var(--color-white);
 }
 
 header {
@@ -20,81 +126,65 @@ header {
 main {
   background-color: var(--color-white);
 }
+.h2-style {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--color-navyblue);
+  text-transform: capitalize;
+}
 
+.section4-style {
+  background-color: var(--color-cloud);
+}
 
-button {
+.section4-list-style {
+  background-color: var(--color-white);
+}
+
+.button-style {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   color: var(--color-iris);
   background: var(--color-cloud);
   cursor: pointer;
 }
-}
-.first-button {
-  color: var(--color-white);
-  background: var(--color-iris);
-}
-.first-button:hover {
-  background: var(--color-ocean);
-}
-.first-button:focus {
-  background: var(--color-ocean);
+
+button:hover {
+  background: var(--color-white);
 }
 
-a {
+button:focus {
+  background: var(--color-white);
+}
+
+.list a {
   text-decoration: none;
 }
 
-.logo {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  color: var(--color-iris);
+.photo-list a {
   text-decoration: none;
-  text-transform: uppercase;
-}
-.logo .highlight {
-  color: var(--color-iris);
-}
-.logo .studio-highlight {
-  color: var(--color-navyblue);
 }
 
-.header {
-  font-size: 16px;
-  font-weight: 500;
-  color: var(--color-navyblue);
-}
-
-.header:hover {
-  color: var(--color-ocean);
-  text-decoration: underline;
-}
-.header:focus {
-  color: var(--color-ocean);
-  text-decoration: underline;
-}
-
-.header-contact {
-  color: var(--color-slate);
-  font-size: 16px;
-  font-weight: 400;
-}
-.header-contact:hover {
-  color: var(--color-ocean);
-}
-..header-contact:focus {
-  color: var(--color-ocean);
-}
-
-.header-list {
-  color: var(--color-navyblue);
+.photo-list-name {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navyblue);
 }
 
-.header-list-type {
-  color: var(--color-slate);
+.photo-list-type {
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-slate);
 }
 
 footer {
