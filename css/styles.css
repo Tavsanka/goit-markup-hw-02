@@ -14,8 +14,11 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--color-iris);
-  text-decoration: none;
   text-transform: uppercase;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .logo .studio-highlight {
@@ -58,8 +61,11 @@
   color: var(--color-ocean);
 }
 
-.address-style {
+.address-decoration {
   font-style: normal;
+}
+
+.address-style {
   list-style: none;
 }
 
@@ -78,10 +84,6 @@
   color: var(--color-ocean);
 }
 
-.address-style a {
-  text-decoration: none;
-}
-
 .header-index {
   background-color: var(--color-navyblue);
 }
@@ -94,14 +96,18 @@
   letter-spacing: 0.02em;
 }
 
-.button-h1 {
+.button-background {
   background-color: var(--color-iris);
+}
+
+.button-h1 {
   color: var(--color-white);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .button-h1:hover {
@@ -113,7 +119,7 @@
 }
 
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   line-height: 1.6;
   background-color: var(--color-white);
@@ -131,9 +137,12 @@ main {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   color: var(--color-navyblue);
   text-transform: capitalize;
+}
+
+.location {
+  text-align: center;
 }
 
 .section4-style {
@@ -156,11 +165,13 @@ main {
 }
 
 button:hover {
-  background: var(--color-white);
+  background: var(--color-ocean);
+  color: var(--color-white);
 }
 
 button:focus {
-  background: var(--color-white);
+  background: var(--color-ocean);
+  color: var(--color-white);
 }
 
 .list a {
@@ -192,11 +203,13 @@ footer {
 }
 
 .footer-highlight {
-  color: var(--color-white);
+  color: var(--color-cloud);
 }
 
 .footer-text {
   color: var(--color-cloud);
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
