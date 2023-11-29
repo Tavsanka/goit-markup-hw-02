@@ -118,13 +118,10 @@ body {
   background-color: var(--color-white);
 }
 
-header {
+.background {
   background-color: var(--color-white);
 }
 
-main {
-  background-color: var(--color-white);
-}
 .header-style {
   font-size: 36px;
   font-weight: 700;
@@ -184,7 +181,7 @@ button:focus {
   letter-spacing: 0.02em;
 }
 
-footer {
+.page-footer {
   background: var(--color-navyblue);
 }
 
